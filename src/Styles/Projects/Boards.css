@@ -1,0 +1,141 @@
+.boards-main{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    display: flex;
+    align-items: center;    
+}
+
+.boards-main::-webkit-scrollbar {
+    display: none; 
+}
+
+.project-setting-rside-l{
+    border-radius: 7px;
+}
+
+.boards-list-card{
+    height: 98%;
+    min-width: 25%;
+    margin-right: 10px;
+    background-color: gray;
+    padding-top: 3px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-card-u{
+    height: 10%;
+    width: 97.5%;
+    background-color: white; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-card-u-left{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+}
+
+.list-card-u-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: auto;
+}
+
+.list-card-l{
+    height: 89%;
+    width: 97.5%;
+    /* background-color: violet; */
+    border-radius: 5px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+.list-card-l::-webkit-scrollbar {
+    display: none; 
+}
+
+.list-card-l-card{
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.list-card-l-card-name{
+    /* background-color: yellow; */
+    font-family: satoshi-bold;
+    font-size: larger;
+    width: auto;
+    height:15%;
+    display: flex;
+    margin: 2%;
+    margin-left: 2%;
+    align-items: center;
+}
+
+.list-card-l-card-desc{
+    /* background-color: yellowgreen; */
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 2%;
+    margin-left: 2%;
+    align-items: center;
+}
+
+.list-card-l-card-due{
+    /* background-color: violet; */
+    width: auto;
+    height: 15%;
+    display: flex;
+    margin-left: 2%;
+    margin: 2%;
+    align-items: center;
+}
+
+.list-card-l-card-key{
+    /* background-color: turquoise; */
+    width: auto;
+    height: 15%;
+    margin: 2%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.list-card-l-card-key-left{
+    /* background-color: blue; */
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.list-card-l-card-key-right{
+    background-color: gray;
+    padding: 3px;
+    border-radius: 5px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
